@@ -49,7 +49,13 @@ load_data <- function() {
 # Performing the plot
 plot2 <- function() {
 
-    par(ps = 14)  # Set point size of text to 14, to match the assignment figures
+    # store current (non-readonly) graphical parameters - used to restore to previous state
+    par_previous <- par(no.readonly = TRUE)
+    
+    # Set point size of text to 14, to match the assignment figures
+    par(ps = 14)
+    # the reference figures in the project description are transparent
+    par(bg = "transparent")
     
     plot(epc_data$Date, epc_data$Global_active_power,
          type="l",
@@ -60,6 +66,9 @@ plot2 <- function() {
     dev.off()
     
     cat("plot2.png has been created in", getwd())
+    
+    # Restore previous base graphical parameters
+    par(par_previous)  
 }
 
 

@@ -48,11 +48,16 @@ load_data <- function() {
 
 # Performing the plot
 plot4 <- function() {
-
-    par(ps = 14)  # Set point size of text to 14, to match the assignment figures
+    
+    # store current (non-readonly) graphical parameters - used to restore to previous state
+    par_previous <- par(no.readonly = TRUE)
+    
+    # Set point size of text to 14, to match the assignment figures
+    par(ps = 14)
+    # the reference figures in the project description are transparent
+    par(bg = "transparent")
     
     # Set multiple plots per graphic - ordered row-wise
-    mfrow_previous <- par("mfrow")  # store previous setting - restore later
     par(mfrow=c(2,2))
     
     
@@ -61,12 +66,10 @@ plot4 <- function() {
          type="l",
          xlab="", ylab="Global Active Power")
     
-    
     # The second line plot, Voltage over time
     plot(epc_data$Date,epc_data$Voltage,
          type="l",
          xlab="datetime", ylab="Voltage")
-    
     
     
     # The third plot, energy sub-metering over time
@@ -83,7 +86,6 @@ plot4 <- function() {
            lty=c(1,1), bty="n", cex=.5) # bty removes the box, cex shrinks the text
     
     
-    
     # The 4th plot - Global_reactive_power over time
     plot(epc_data$Date,epc_data$Global_reactive_power,
          type="l",
@@ -96,7 +98,8 @@ plot4 <- function() {
     
     cat("plot4.png has been created in", getwd())
     
-    par(mfrow = mfrow_previous)  # Restore previous setting for mfrow
+    # Restore previous base graphical parameters
+    par(par_previous)
 }
 
 
