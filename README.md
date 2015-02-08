@@ -11,8 +11,7 @@ Click at the links below to view the results:
 Latest commits: <a href="../../commits/master">Link</a>
 
 
-
-## The course description
+## The project description
 
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
