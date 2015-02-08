@@ -1,4 +1,18 @@
-## Introduction
+## Working solution for Coursera Exploratory Data Analysis - project 1
+
+
+Click at the links below to view the results:
+
+* Part 1 : <a href="blob/master/plot1.R">code</a> and <a href="blob/master/plot1.png">plot</a>
+* Part 2 : <a href="blob/master/plot2.R">code</a> and <a href="blob/master/plot2.png">plot</a>
+* Part 3 : <a href="blob/master/plot3.R">code</a> and <a href="blob/master/plot3.png">plot</a>
+* Part 4 : <a href="blob/master/plot4.R">code</a> and <a href="blob/master/plot4.png">plot</a>
+
+Latest commits: <a href="commits/master">Link</a>
+
+
+
+## The course description
 
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
@@ -89,26 +103,26 @@ GitHub so that the GitHub version of your repository is up to
 date. There should be four PNG files and four R code files.
 
 
-The four plots that you will need to construct are shown below. 
+The four plots that you will need to construct are shown below.
 
 
 ### Plot 1
 
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png)
 
 
 ### Plot 2
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png)
 
 
 ### Plot 3
 
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
+![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png)
 
 
 ### Plot 4
 
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
+![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png)
 
