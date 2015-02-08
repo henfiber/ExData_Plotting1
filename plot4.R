@@ -49,7 +49,10 @@ load_data <- function() {
 # Performing the plot
 plot4 <- function() {
 
+    par(ps = 14)  # Set point size of text to 14, to match the assignment figures
+    
     # Set multiple plots per graphic - ordered row-wise
+    mfrow_previous <- par("mfrow")  # store previous setting - restore later
     par(mfrow=c(2,2))
     
     
@@ -92,6 +95,8 @@ plot4 <- function() {
     dev.off()
     
     cat("plot4.png has been created in", getwd())
+    
+    par(mfrow = mfrow_previous)  # Restore previous setting for mfrow
 }
 
 

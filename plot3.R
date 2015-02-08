@@ -48,7 +48,9 @@ load_data <- function() {
 
 # Performing the plot
 plot3 <- function() {
-
+    
+    par(ps = 14)  # Set point size of text to 14, to match the assignment figures
+    
     # Add the first line plot
     plot(epc_data$Date,epc_data$Sub_metering_1,
          type="l",
@@ -60,8 +62,9 @@ plot3 <- function() {
     
     # Add the top-right legend
     legend("topright",
-           legend = c(" Sub_metering_1", " Sub_metering_2", " Sub_metering_3"),
+           legend = c("Sub_metering_1  ", "Sub_metering_2  ", "Sub_metering_3  "),
            col = c("black","red","blue"),
+           cex = .9,
            lty = c(1,1), lwd = c(1,1))
     
     # Saving to a 480x480 png file

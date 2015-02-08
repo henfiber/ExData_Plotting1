@@ -49,6 +49,8 @@ load_data <- function() {
 # Performing the plot
 plot2 <- function() {
 
+    par(ps = 14)  # Set point size of text to 14, to match the assignment figures
+    
     plot(epc_data$Date, epc_data$Global_active_power,
          type="l",
          xlab="", ylab="Global Active Power (kilowatts)")    

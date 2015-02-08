@@ -49,6 +49,8 @@ load_data <- function() {
 # Performing the plot
 plot1 <- function() {
     
+    par(ps = 14)  # Set point size of text to 14, to match the assignment figures
+    
     hist(epc_data$Global_active_power, main="Global Active Power",
          ylab="Frequency", xlab="Global Active Power (kilowatts)",
          col="Red")
