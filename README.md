@@ -3,12 +3,12 @@
 
 Click at the links below to view the results:
 
-* Part 1 : <a href="blob/master/plot1.R">code</a> and <a href="blob/master/plot1.png">plot</a>
-* Part 2 : <a href="blob/master/plot2.R">code</a> and <a href="blob/master/plot2.png">plot</a>
-* Part 3 : <a href="blob/master/plot3.R">code</a> and <a href="blob/master/plot3.png">plot</a>
-* Part 4 : <a href="blob/master/plot4.R">code</a> and <a href="blob/master/plot4.png">plot</a>
+* Part 1 : <a href="plot1.R">code</a> and <a href="plot1.png">plot</a>
+* Part 2 : <a href="plot2.R">code</a> and <a href="plot2.png">plot</a>
+* Part 3 : <a href="plot3.R">code</a> and <a href="plot3.png">plot</a>
+* Part 4 : <a href="plot4.R">code</a> and <a href="plot4.png">plot</a>
 
-Latest commits: <a href="commits/master">Link</a>
+Latest commits: <a href="../../commits/master">Link</a>
 
 
 
