@@ -8,7 +8,6 @@ Click at the links below to view the results:
 * Part 3 : <a href="plot3.R">code</a> and <a href="plot3.png">plot</a>
 * Part 4 : <a href="plot4.R">code</a> and <a href="plot4.png">plot</a>
 
-Latest commits: <a href="../../commits/master">Link</a>
 
 
 ## The project description  
