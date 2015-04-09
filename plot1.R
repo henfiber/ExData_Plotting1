@@ -4,7 +4,8 @@
 # * More information about the dataset here:
 # * https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption
 
-# Load the dataset with this function
+  
+# Load the dataset with this function  
 load_data <- function() {
     
     # Check if the file exists

@@ -1,4 +1,4 @@
-## Working solution for Coursera Exploratory Data Analysis - project 1
+## Working solution for Coursera Exploratory Data Analysis - project 1  
 
 
 Click at the links below to view the results:
@@ -11,7 +11,7 @@ Click at the links below to view the results:
 Latest commits: <a href="../../commits/master">Link</a>
 
 
-## The project description
+## The project description  
 
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
@@ -29,8 +29,7 @@ one household with a one-minute sampling rate over a period of almost
 are available.
 
 
-The following descriptions of the 9 variables in the dataset are taken
-from
+The following descriptions of the 9 variables in the dataset are taken from 
 the <a href="https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption">UCI
 web site</a>:
 

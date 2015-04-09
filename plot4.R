@@ -4,6 +4,7 @@
 # * More information about the dataset here:
 # * https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption
 
+
 # Load the dataset with this function
 load_data <- function() {
     
@@ -81,7 +82,7 @@ plot4 <- function() {
     lines(epc_data$Date,epc_data$Sub_metering_3,col="blue")
     # Add the legend
     legend("topright",
-           legend = c(" Sub_metering_1", " Sub_metering_2", " Sub_metering_3"),
+           legend = c("Sub_metering_1  ", "Sub_metering_2  ", "Sub_metering_3  "),
            col=c("black","red","blue"), 
            lty=c(1,1), bty="n", cex=.5) # bty removes the box, cex shrinks the text
     
