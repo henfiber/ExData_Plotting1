@@ -3,6 +3,8 @@
 # * a one-minute sampling rate over a period of almost 4 years.
 # * More information about the dataset here:
 # * https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption
+#
+# Last updated: 2014-05-10
 
 
 # Load the dataset with this function

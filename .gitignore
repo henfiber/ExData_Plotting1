@@ -1,4 +1,3 @@
-
 # Ignore R history/data files
 .RData
 .Rhistory

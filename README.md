@@ -10,6 +10,7 @@ Click at the links below to view the results:
 
 
 
+
 ## The project description  
 
 This assignment uses data from
@@ -44,8 +45,8 @@ web site</a>:
 <li><b>Sub_metering_3</b>: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.</li>
 </ol>
 
-## Loading the data
 
+## Loading the data
 
 
 
