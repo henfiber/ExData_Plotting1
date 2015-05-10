@@ -61,7 +61,7 @@ plot1 <- function() {
     par(bg = "transparent")
     
     
-    hist(epc_data$Global_active_power, main="Global Active Power",
+    hist(epc_data$Global_active_power, main="Global Active Power ",
          ylab="Frequency", xlab="Global Active Power (kilowatts)",
          col="Red")
     

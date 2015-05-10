@@ -62,7 +62,7 @@ plot2 <- function() {
     
     plot(epc_data$Date, epc_data$Global_active_power,
          type="l",
-         xlab="", ylab="Global Active Power (kilowatts)")    
+         xlab="", ylab="Global Active Power (kilowatts) ")    
     
     # Saving to a 480x480 png file
     dev.copy(png, file="plot2.png", width=480, height=480)
