@@ -4,7 +4,7 @@
 # * More information about the dataset here:
 # * https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption
 #
-# Last updated: 2014-05-10
+# Last updated: 2015-06-07
 
 
 # Load the dataset with this function

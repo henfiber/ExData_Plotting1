@@ -3,6 +3,7 @@
 
 Click at the links below to view the results:
 
+
 * Part 1 : <a href="plot1.R">code</a> and <a href="plot1.png">plot</a>
 * Part 2 : <a href="plot2.R">code</a> and <a href="plot2.png">plot</a>
 * Part 3 : <a href="plot3.R">code</a> and <a href="plot3.png">plot</a>
@@ -13,9 +14,7 @@ Click at the links below to view the results:
 
 ## The project description  
 
-This assignment uses data from
-the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
-Learning Repository</a>, a popular repository for machine learning
+This assignment uses data from the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine Learning Repository</a>, a popular repository for machine learning
 datasets. In particular, we will be using the "Individual household
 electric power consumption Data Set" which I have made available on
 the course web site:
