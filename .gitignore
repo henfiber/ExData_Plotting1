@@ -1,7 +1,6 @@
 # Ignore R history/data files
 .RData
 .Rhistory
- 
 
 # Ignore linux editor files
 *~

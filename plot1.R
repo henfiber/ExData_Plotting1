@@ -4,7 +4,7 @@
 # * More information about the dataset here:
 # * https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption
 #
-# Last updated: 2015-06-07
+# Last updated: 2015-08-09
 
   
 # Load the dataset with this function  
@@ -61,7 +61,7 @@ plot1 <- function() {
     par(bg = "transparent")
     
     
-    hist(epc_data$Global_active_power, main="Global Active Power",
+    hist(epc_data$Global_active_power, main="Global Active Power ",
          ylab="Frequency", xlab="Global Active Power (kilowatts)",
          col="Red")
     

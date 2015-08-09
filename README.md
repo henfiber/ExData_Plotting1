@@ -1,3 +1,4 @@
+
 ## Working solution for Coursera Exploratory Data Analysis - project 1  
 
 
