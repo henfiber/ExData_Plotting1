@@ -4,7 +4,7 @@
 # * More information about the dataset here:
 # * https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption
 #
-# Last updated: 2015-08-09
+# Last updated: 2015-09-13
 
 
 # Load the dataset with this function
@@ -62,7 +62,7 @@ plot2 <- function() {
     
     plot(epc_data$Date, epc_data$Global_active_power,
          type="l",
-         xlab="", ylab="Global Active Power (kilowatts) ")    
+         xlab="", ylab="Global Active Power (kilowatts)")    
     
     # Saving to a 480x480 png file
     dev.copy(png, file="plot2.png", width=480, height=480)
